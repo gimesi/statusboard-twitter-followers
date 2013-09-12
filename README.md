@@ -20,4 +20,5 @@ If you only want the php function without the styling stuff, here is the [snippe
 
 ## Dependencies & Credits
 This script relies on the "Twitter API" wrapper by James Mallison which can be found at https://github.com/J7mbo/twitter-api-php
+
 The way how to get a follower count was posted by Amal Murali on *Stackoverflow* and can be found at http://stackoverflow.com/questions/17409227/follower-count-number-in-twitter
