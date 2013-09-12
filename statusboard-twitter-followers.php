@@ -17,18 +17,18 @@
  * For further info on Status Board see http://panic.com/statusboard
  */
 
-require_once('TwitterAPIExchange.php'); 										// adjust server path accordingly
+require_once('TwitterAPIExchange.php'); // adjust server path accordingly
 
 // GET YOUR TOKENS AND KEYS at https://dev.twitter.com/apps/
 $settings = array(
-'oauth_access_token' => "YOUR_ACCESS_TOKEN",									// enter your data here
-'oauth_access_token_secret' => "YOUR_ACCESS_TOKEN_SECRET",						// enter your data here
-'consumer_key' => "YOUR_CONSUMER_KEY",											// enter your data here
-'consumer_secret' => "YOUR_CONSUMER_KEY_SECRET"									// enter your data here
+'oauth_access_token' => "YOUR_ACCESS_TOKEN", // enter your data here
+'oauth_access_token_secret' => "YOUR_ACCESS_TOKEN_SECRET", // enter your data here
+'consumer_key' => "YOUR_CONSUMER_KEY", // enter your data here
+'consumer_secret' => "YOUR_CONSUMER_KEY_SECRET"	// enter your data here
 );
 
 $ta_url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
-$getfield = '?screen_name=YOURNAME';											// enter your twitter name without the "@" here
+$getfield = '?screen_name=YOURNAME'; // enter your twitter name without the "@" here
 $requestMethod = 'GET';
 $twitter = new TwitterAPIExchange($settings);
 $follow_count=$twitter->setGetfield($getfield)
