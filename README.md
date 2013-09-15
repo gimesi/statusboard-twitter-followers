@@ -7,7 +7,7 @@ Show the number of followers of a *Twitter* account on your *Panic Status Board*
 3. Enter your Twitter name at line 31.
 4. Download **TwitterAPIExchange.php** from [https://github.com/J7mbo/twitter-api-php](https://github.com/J7mbo/twitter-api-php).
 5. Upload both files to your server.
-6. On your iPad: Open Status Board, add a DIY panel (the one with the "< >" symbols), tap on it and enter the path to the files on your server. (http://example.com/path/to/statusboard-mailchimp-subscribers.php)
+6. On your iPad: Open Status Board, add a DIY panel (the one with the "< >" symbols), tap on it and enter the path to the files on your server. (http://example.com/path/to/statusboard-twitter-followers.php)
 7. Be happy.
 
 ## For minimalists
