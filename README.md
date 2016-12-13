@@ -1,6 +1,9 @@
 # Status Board Twitter Followers
 Show the number of followers of a *Twitter* account on your *Panic Status Board*.
 
+## STATUS BOARD IS DISCONTINUED!
+Update November 2016: From now on, Status Board is history. Read more about it on the [Panic Blog](https://panic.com/blog/the-future-of-status-board/).
+
 ## How to use it
 1. Go to Twitter's [developer website](https://dev.twitter.com/apps), log in, set up a new app and then note following info: *oauth_access* & *oauth_access secret* tokens, *consumer* & *consumer secret* keys.
 2. Download **statusboard-twitter-followers.php** and enter above info accordingly in lines 24 to 27.
